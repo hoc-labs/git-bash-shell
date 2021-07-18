@@ -26,13 +26,13 @@ Before you start, make sure you are in the folder created for the assignment rep
 
 Here is the output from running the commands:
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/git-bash-1.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-1.png)
 
 
 
 You should have the following folder structure at this point.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/git-bash-2.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-2.png)
 
 
 
@@ -44,7 +44,7 @@ Adding the **-l flag**, will give more details, such as the time the file or dir
 
 Adding the **-a flag**, includes all the hidden files, which start with a ., such as .git, .gitbook, .github, and ../ and ./ for the parent, and current directories. Typically, users are not interested in these hidden files, and the are hidden by default to prevent them from being accidentally modified/deleted.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/git-bash-3.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-3.png)
 
 
 
