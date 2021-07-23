@@ -67,7 +67,19 @@ We have created a new directory in our git repository so it should show up when 
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-4.png)
 
+#### A (add) C (commit) P (push)
+To create a snapshot of these changes and push the changes to the GitHub repo, we will execute the following git commands:
+* git add . (adds all of the untracked/new files to the git staging area)
 
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-5.png)
+
+* git commit -m"added zoo directory" (commits the changes in the staging area)
+
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-6.png)
+
+* git push (pushes the changes to the GitHub repo)
+
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-7.png)
 
 #### Removing Files and Directories
 
