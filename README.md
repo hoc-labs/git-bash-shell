@@ -98,9 +98,13 @@ The **rm -r** command will remove the directory, and anything within it (files a
 
 Now, you should be back in your course folder and it should be empty. 
 
-Let's create one last file, named done.txt, in the current directory to make sure you have something to push for your completed assignment.
+#### Final git ACP
+Let's commit these changes.
+* git add .
+* git commit -m"removed zoo directory"
+* git push
+* git status (should show you are up to date with origin/main)
 
-touch done.txt
 
 That's it. You've completed your first assignment! Follow the instructors for turning in your assignment.
 
