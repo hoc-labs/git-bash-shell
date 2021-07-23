@@ -2,6 +2,9 @@
 
 The main purpose of this assignment is to get some practice using the Bash Shell to issue commands and to get comfortable with the ones you will use most frequently, such as working with files and directories and git repositories.
 
+**Tip:** you can use the VS Code extension for previewing markdown to read the README file in your VS Code editor. That way you can read it while you are typing in the Terminal window right below the directions.
+
+![](https://raw.githubusercontent.com/hoc-labs/images/main/vscode-markdown-preview.png)
 
 #### Creating Directories and Files
 You're going to practice creating a few directories and files so that you can navigate around them and learn some commands. 
@@ -27,7 +30,6 @@ Before you start, make sure you are in the folder created for the assignment rep
 Here is the output from running the commands:
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-1.png)
-
 
 
 You should have the following folder structure at this point.
@@ -59,6 +61,14 @@ Most of the commands for navigating directories are pretty straight forward, but
 | navigate to the lions directory | cd zoo/lions |
 | navigate to the tigers directory | cd ../tigers |
 
+#### Checking Git Status
+
+We have created a new directory in our git repository so it should show up when we execute the `git status command`.
+
+![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-4.png)
+
+
+
 #### Removing Files and Directories
 
 The **rmdir** command only works on empty directories, so you must first remove the file within the directory before you can use it to remove a directory. 
@@ -68,10 +78,10 @@ The **rm -r** command will remove the directory, and anything within it (files a
 | task | command |
 | :--- | :--- |
 | remove the file, tiger1.txt | rm tiger1.txt |
-| cd to the zoo directory \(parent\) | cd .. |
+| cd to the zoo directory (parent) | cd .. |
 | remove the empty directory, tigers | rmdir tigers |
 | remove the directory, and files within the lions directory | rm -r lions |
-| cd to the zoo directory \(parent\) | cd .. |
+| cd to the zoo directory (parent) | cd .. |
 | remove the zoo directory | rmdir zoo |
 
 Now, you should be back in your course folder and it should be empty. 
