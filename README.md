@@ -1,12 +1,12 @@
 # Git Bash Shell Practice
 
-The main purpose of this assignment is to get some practice using the Bash Shell to issue commands and to get comfortable with the ones you will use most frequently.
+The main purpose of this assignment is to get some practice using the Bash Shell to issue commands and to get comfortable with the ones you will use most frequently, such as working with files and directories and git repositories.
 
+
+#### Creating Directories and Files
 You're going to practice creating a few directories and files so that you can navigate around them and learn some commands. 
 
 Before you start, make sure you are in the folder created for the assignment repository within your course folder.
-
-#### Creating Directories and Files
 
 | task | command |
 | :--- | :--- |
@@ -17,12 +17,12 @@ Before you start, make sure you are in the folder created for the assignment rep
 | create a new file named "lion1.txt" | touch lion1.txt |
 | append some text to lion1.txt | echo "lion1" &gt;&gt; lion1.txt |
 | create a new file named "lion2.txt" with "lion2" as content | echo "lion2" &gt; lion2.txt |
-| navigate to the zoo directory \(parent directory\) | cd .. |
+| navigate to the zoo directory (parent directory) | cd .. |
 | create a directory named "tigers" | mkdir tigers |
 | navigate to the tigers directory | cd tigers |
 | create a new file named "tiger1.txt' | touch tiger1.txt |
-| navigate to the zoo directory \(parent directory\) | cd .. |
-| navigate to the course directory \(parent directory\) | cd .. |
+| navigate to the zoo directory (parent directory) | cd .. |
+| navigate to the course directory (parent directory\ | cd .. |
 
 Here is the output from running the commands:
 
@@ -50,7 +50,7 @@ Adding the **-a flag**, includes all the hidden files, which start with a ., suc
 
 #### Combining Directories in Command Paths
 
-Most of the commands for navigating directories are pretty straight forward, but one aspect that often confuses people is the ".." \(**parent directory**\) and "." \(**current directory**\). They can be used in places where you would insert any directory name, such as in a path. The ".." \(parent directory\) command allows you to navigate up and down in a single command, such as to a sibling directory.
+Most of the commands for navigating directories are pretty straight forward, but one aspect that often confuses people is the `..` (parent directory) and `.` (current directory). They can be used in places where you would insert any directory name, such as in a path. The `..` (parent directory) command allows you to navigate up and down in a single command, such as to a sibling directory.
 
 | task | command |
 | :--- | :--- |
@@ -61,7 +61,9 @@ Most of the commands for navigating directories are pretty straight forward, but
 
 #### Removing Files and Directories
 
-The **rmdir** command only works on empty directories, so we must first remove the file within the directory. The **rm -r** command will remove the directory, and anything within it \(files and sub-directories\)
+The **rmdir** command only works on empty directories, so you must first remove the file within the directory before you can use it to remove a directory. 
+
+The **rm -r** command will remove the directory, and anything within it (files and sub-directories)
 
 | task | command |
 | :--- | :--- |
@@ -72,7 +74,9 @@ The **rmdir** command only works on empty directories, so we must first remove t
 | cd to the zoo directory \(parent\) | cd .. |
 | remove the zoo directory | rmdir zoo |
 
-Now, you should be back in your course folder and it should be empty. Let's create one last file, named done.txt, in the current directory to make sure you have something to push for your completed assignment.
+Now, you should be back in your course folder and it should be empty. 
+
+Let's create one last file, named done.txt, in the current directory to make sure you have something to push for your completed assignment.
 
 touch done.txt
 
