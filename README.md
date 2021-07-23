@@ -106,5 +106,5 @@ Let's commit these changes.
 * git status (should show you are up to date with origin/main)
 
 
-That's it. You've completed your first assignment! Follow the instructors for turning in your assignment.
+That's it. You've completed and turned in your first assignment! 
 
