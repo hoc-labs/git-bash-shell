@@ -1,10 +1,9 @@
 # Git Bash Shell Practice
 
-The main purpose of this assignment is to get some practice using the Bash Shell to issue commands and to get comfortable with the ones you will use most frequently, such as working with files and directories and git repositories.
+### Objectives
+* practice common CLI commands
+* practice git ACP commands (add, commit, push)
 
-**Tip:** you can use the VS Code extension for previewing markdown to read the README file in your VS Code editor. That way you can read it while you are typing in the Terminal window right below the directions.
-
-![](https://raw.githubusercontent.com/hoc-labs/images/main/vscode-markdown-preview.png)
 
 #### Creating Directories and Files
 You're going to practice creating a few directories and files so that you can navigate around them and learn some commands. 
