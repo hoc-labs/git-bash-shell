@@ -39,7 +39,12 @@ Here is the output from running the commands:
 
 You should have the following folder structure at this point.
 
-![](https://raw.githubusercontent.com/hoc-labs/images/main/git-bash-2.png)
+* zoo
+  * lions
+    * lion1.txt
+    * lion2.txt
+  * tigers
+    * tiger1.txt
 
 
 
@@ -103,33 +108,33 @@ The **rm -r** command will remove the directory, and anything within it (files a
 
 Now, you should be back in your course folder and it should be empty. 
 
-### Part 1 - Finding Files in a Directory Tree
+### Part 2 - Finding Files in a Directory Tree
 
-**Find my script**
+Start these tasks at the root of the project.
 
-In this repository you'll find `MyDocuments` - this is all the documents that I use on my laptop.
+#### Find my script
 
-I need to find the `script.js` file that is a part of MyFirstWebsite however you are **not** allowed to use a GUI, you must use Command Line and the Terminal.
+In this repository you'll find a folder named `MyDocuments`.
 
-What commands would I need to change directories to the directory containing `script.js`? In the section below, write all the commands you used.
+Find the file named `script.js` file that is a part of the MyFirstWebsite project. You are **not** allowed to use a GUI, you must use Command Line and the Terminal.
 
-#### 1) Answer
+What commands would I need to use change directories to the directory containing `script.js`? In the section below, write all the commands you used.
+
+#### Find my script answer
 
 <!-- Write your answer here -->
 
-### 2) Find my Hotel Photo
-
-Great work!
+#### Find my Hotel Photo
 
 Next, I want to try and find the photo of my hotel from my holiday in July that I want to send to a friend.
 
 **Note**: You should do this by moving from where you are after completing the previous task.
 
-#### 2) Answer
+#### Find my Hotel Answer
 
 <!-- Write your answer here -->
 
-### 3) Counting Script
+#### Counting Script
 
 Next, I want you to run the script in this directory
 
@@ -147,13 +152,13 @@ when you're in the correct directory.
 
 For this task, I want you to **stop** the counter when I have counted to 10.
 
-#### 3) Answer
+#### Counting Script Answer
 
 Copy the output of the script here
 
 <!-- Write your answer here -->
 
-### 4) Quiz
+### Part 3 - Quiz
 
 In this directory you'll find a quick quiz for you to complete
 
@@ -161,7 +166,7 @@ In this directory you'll find a quick quiz for you to complete
 /MyDocuments/Quiz
 ```
 
-You should open the quiz in Visual Studio Code and complete it. You can do this either by opening this project in VSCode or by running the command
+You should open the quiz in Visual Studio Code and complete it. Like the README file, you can open a preview version that is easier to read, and the file in another tab to answer the questions.
 
 ```sh
 code QUIZ.md
@@ -170,11 +175,11 @@ code QUIZ.md
 when you're in the correct directory.
 
 
-#### Final git ACP
+### Part 4 - Final Git ACP
 Let's commit these changes.
-* git add .
-* git commit -m"removed zoo directory"
-* git push
+* **A** - git add .
+* **C** - git commit -m"removed zoo directory"
+* **P** - git push
 * git status (should show you are up to date with origin/main)
 
 

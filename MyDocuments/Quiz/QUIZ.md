@@ -1,6 +1,6 @@
 # Quiz
 
-You can mark your choice by putting an `x` in the correct box. (hint: you need to trim any whitespace on the left/right of the x to get it to display as a check-mark)
+You can mark your choice by putting an `x` in the correct box. (hint: you need to trim any whitespace on the left/right of the x to get it to display as a check-mark `[x]` not `[ x ]`)
 
 **Which of these is incorrect?**
 
