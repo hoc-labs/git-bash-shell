@@ -71,7 +71,7 @@ Most of the commands for navigating directories are pretty straight forward, but
 | navigate to the lions directory | cd zoo/lions |
 | navigate to the tigers directory | cd ../tigers |
 
-#### Checking Git Status
+### Part 2- Working with Git
 
 We have created a new directory in our git repository so it should show up when we execute the `git status command`.
 
@@ -108,7 +108,7 @@ The **rm -r** command will remove the directory, and anything within it (files a
 
 Now, you should be back in your course folder and it should be empty. 
 
-### Part 2 - Finding Files in a Directory Tree
+### Part 3 - Finding Files in a Directory Tree
 
 Start these tasks at the root of the project.
 
@@ -158,7 +158,7 @@ Copy the output of the script here
 
 <!-- Write your answer here -->
 
-### Part 3 - Quiz
+### Part 4 - Quiz
 
 In this directory you'll find a quick quiz for you to complete
 
@@ -175,7 +175,7 @@ code QUIZ.md
 when you're in the correct directory.
 
 
-### Part 4 - Final Git ACP
+### Part 5 - Final Git ACP
 Let's commit these changes.
 * **A** - git add .
 * **C** - git commit -m"removed zoo directory"
