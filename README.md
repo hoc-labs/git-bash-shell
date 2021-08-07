@@ -67,7 +67,7 @@ Most of the commands for navigating directories are pretty straight forward, but
 | task | command |
 | :--- | :--- |
 | navigate to the tigers directory | cd zoo/tigers |
-| navigate to the course directory | cd ../../ |
+| navigate to the root directory | cd ../../ |
 | navigate to the lions directory | cd zoo/lions |
 | navigate to the tigers directory | cd ../tigers |
 
